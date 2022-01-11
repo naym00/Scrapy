@@ -19,6 +19,32 @@ NEWSPIDER_MODULE = 'postscrape.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
+DOWNLOADER_MIDDLEWARES = {
+
+'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+
+'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
+
+'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
+
+'scrapy_fake_useragent.middleware.RetryUserAgentMiddleware': 401,
+
+}
+
+
+
+FAKEUSERAGENT_PROVIDERS = [
+
+'scrapy_fake_useragent.providers.FakeUserAgentProvider',
+
+'scrapy_fake_useragent.providers.FakerProvider',
+
+'scrapy_fake_useragent.providers.FixedUserAgentProvider',
+
+'mypackage.providers.CustomProvider'
+
+]
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
