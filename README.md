@@ -18,11 +18,11 @@ This project is python based project. In this project i have scraped hotel infor
 
 
 
-Database Creation
-Step 1: Create Database named in 'hotel_data'
-Step 2: Import 'hotel_information.sql' which is in spiders folder.
+### Database Creation
+- [x] Create Database named in 'hotel_data'
+- [x] Import 'hotel_information.sql' which is in spiders folder.
 
-Project Setup
+### Project Setup
 - [x] Go to the project folder which is 'Scrapy'
 - [x] python3 -m venv venv
 - [x] source venv/bin/activate
