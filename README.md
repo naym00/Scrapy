@@ -23,10 +23,10 @@ Step 1: Create Database named in 'hotel_data'
 Step 2: Import 'hotel_information.sql' which is in spiders folder.
 
 Project Setup
-Step 1: Go to the project folder which is 'Scrapy'
-Step 2: python3 -m venv venv
-Step 3: source venv/bin/activate
-Step 4: pip install scrapy
-Step 5: cd postscrape
-Step 6: pip install scrapy-fake-useragent
-Step 7: pip install mysql-connector-python
+- [x] Go to the project folder which is 'Scrapy'
+- [x] python3 -m venv venv
+- [x] source venv/bin/activate
+- [x] pip install scrapy
+- [x] cd postscrape
+- [x] pip install scrapy-fake-useragent
+- [x] pip install mysql-connector-python
