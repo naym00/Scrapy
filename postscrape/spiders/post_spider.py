@@ -28,7 +28,7 @@ def store_data_into_db(datalist):
 
 class Post_Spider(scrapy.Spider):
     name = "posts"
-    location = 'Germany-Hotels.90.dc.html'
+    location = 'Thailand-Hotels.238.dc.html'
     exact_location = location.split('Hotels')[0][ : len(location.split('Hotels')[0])-1]
     start_urls = [
         'http://www.kayak.co.in/' + location,
