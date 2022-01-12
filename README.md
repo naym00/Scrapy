@@ -27,3 +27,4 @@ This project is python based project. In this project i have scraped hotel infor
 - [x] cd postscrape
 - [x] pip install scrapy-fake-useragent
 - [x] pip install mysql-connector-python
+- [x] run the project ```scrapy crawl posts```
