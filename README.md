@@ -3,8 +3,7 @@
 This project is python based project. In this project i have scraped hotel information from ```https://www.kayak.co.in/``` website.
 
 ### Prerequisites
-- [x] Install Python (recommended version 3.8)
-- [x] Install XAMPP/WAMPP (recommended XAMPP)
+- [x] Install Python (recommended version 3.8.10)
 
 ### For Database
 - [x] MySQL
@@ -15,8 +14,6 @@ This project is python based project. In this project i have scraped hotel infor
 - [x] MYSQL Connector
 - [x] Fake-User-Generator
 - [x] Python Virtual Environment
-
-
 
 ### Database Creation
 - [x] Create Database named in 'hotel_data'
