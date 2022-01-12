@@ -21,7 +21,7 @@ This project is python based project. In this project i have scraped hotel infor
 
 ### Database Creation
 - [x] Create Database named in 'hotel_data'
-- [x] Import 'hotel_information.sql' which is in spiders folder.
+- [x] Import 'hotel_information.sql' which is in 'spiders' folder.
 
 ### Project Setup
 - [x] Go to the project folder which is 'Scrapy'
